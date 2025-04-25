@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <style>.lw { font-size: 60px; }</style>
+        <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.invisible{visibility:hidden}.fixed{position:fixed}.inset-0{inset:0px}.bottom-8{bottom:2rem}.right-8{right:2rem}.z-50{z-index:50}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.ml-auto{margin-left:auto}.mr-2{margin-right:0.5rem}.mr-3{margin-right:0.75rem}.mr-4{margin-right:1rem}.mt-12{margin-top:3rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-12{height:3rem}.h-32{height:8rem}.h-64{height:16rem}.w-12{width:3rem}.w-32{width:8rem}.w-full{width:100%}.max-w-md{max-width:28rem}.scale-95{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-7{grid-template-columns:repeat(7, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-10{gap:2.5rem}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-l-lg{border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-4{border-width:4px}.border-t{border-top-width:1px}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-yellow-500{--tw-border-opacity:1;border-color:rgb(234 179 8 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.bg-opacity-50{--tw-bg-opacity:0.5}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-2{padding:0.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pb-4{padding-bottom:1rem}.pt-20{padding-top:5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.text-yellow-800{--tw-text-opacity:1;color:rgb(133 77 14 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-600:hover{--tw-bg-opacity:1;background-color:rgb(202 138 4 / var(--tw-bg-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-yellow-500:hover{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.hover\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-yellow-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(234 179 8 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:pr-10{padding-right:2.5rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:w-1\/2{width:50%}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}}</style></head>
+        <body class="font-sans bg-white">
+            
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharya Video Produktion - Professional Photography &amp; Videography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for animations and effects */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .hero-image {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1497005367839-6e852de7270d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            transition: all 0.5s ease;
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-card {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+        }
+        
+        .testimonial-card.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            transform: translateY(-5px) scale(1.1);
+        }
+        
+        .booking-card {
+            transform: perspective(1000px) rotateY(0deg);
+            transition: all 0.5s ease;
+            backface-visibility: hidden;
+        }
+        
+        .booking-card:hover {
+            transform: perspective(1000px) rotateY(5deg);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-yellow {
+            background-color: #FFD700;
+            color: #000;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-yellow:hover {
+            background-color: #FFC000;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 200, 0, 0.3);
+        }
+        
+        .calendar-day {
+            transition: all 0.2s ease;
+        }
+        
+        .calendar-day:hover {
+            background-color: #FFD700;
+            transform: scale(1.1);
+        }
+        
+        .calendar-day.selected {
+            background-color: #FFD700;
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+
+
+    <!-- Navigation -->
+    <nav class="bg-white text-black fixed w-full z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-black">
+                        <span class="text-black">Sharya</span> <span class="text-yellow-500">Video</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-black focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-black hover:text-yellow-500 transition">Home</a>
+                    <a href="#services" class="text-black hover:text-yellow-500 transition">Services</a>
+                    <a href="#portfolio" class="text-black hover:text-yellow-500 transition">Portfolio</a>
+                    <a href="#booking" class="text-black hover:text-yellow-500 transition">Booking</a>
+                    <a href="#about" class="text-black hover:text-yellow-500 transition">About</a>
+                    <a href="#contact" class="text-black hover:text-yellow-500 transition">Contact</a>
+                    <div class="flex space-x-4 ml-4">
+                        <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2 text-black hover:text-yellow-500 transition">Home</a>
+                <a href="#services" class="block py-2 text-black hover:text-yellow-500 transition">Services</a>
+                <a href="#portfolio" class="block py-2 text-black hover:text-yellow-500 transition">Portfolio</a>
+                <a href="#booking" class="block py-2 text-black hover:text-yellow-500 transition">Booking</a>
+                <a href="#about" class="block py-2 text-black hover:text-yellow-500 transition">About</a>
+                <a href="#contact" class="block py-2 text-black hover:text-yellow-500 transition">Contact</a>
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-black hover:text-yellow-500 transition social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-image flex items-center justify-center text-black pt-20">
+        <div class="text-center px-4">
+            <div class="float-animation mb-8">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1528&amp;q=80" alt="Camera" class="w-32 h-32 mx-auto rounded-full object-cover border-4 border-yellow-500 shadow-lg">
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 fade-in">Capture Your <span class="text-yellow-500">Moments</span></h1>
+            <p class="text-xl md:text-2xl mb-8 fade-in">Professional photography and videography services for your special occasions</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#booking" class="btn-yellow font-bold py-3 px-8 rounded-full inline-block fade-in">
+                    Book Now
+                </a>
+                <a href="#portfolio" class="bg-black hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 inline-block fade-in">
+                    View Work
+                </a>
+            </div>
+            <div class="mt-12 flex justify-center space-x-6">
+                <a href="#" class="text-black hover:text-yellow-500 text-2xl social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-black hover:text-yellow-500 text-2xl social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-black hover:text-yellow-500 text-2xl social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-black hover:text-yellow-500 text-2xl social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our <span class="text-yellow-500">Services</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition booking-card">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Photography</h3>
+                    <p class="text-gray-600 mb-4">Professional photography services for weddings, events, portraits, and commercial projects. We capture your special moments with artistic vision.</p>
+                    <a href="#booking" class="text-yellow-500 font-semibold hover:underline">Book now →</a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition booking-card">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Videography</h3>
+                    <p class="text-gray-600 mb-4">High-quality video production services including event coverage, promotional videos, documentaries, and cinematic storytelling.</p>
+                    <a href="#booking" class="text-yellow-500 font-semibold hover:underline">Book now →</a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg hover:shadow-xl transition booking-card">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-photo-film"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Post-Production</h3>
+                    <p class="text-gray-600 mb-4">Professional photo editing, video editing, color grading, and special effects to make your content stand out from the crowd.</p>
+                    <a href="#booking" class="text-yellow-500 font-semibold hover:underline">Book now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our <span class="text-yellow-500">Portfolio</span></h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portfolio Item 1 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1529634396507-843e6a056ec2?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Wedding Photography" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Wedding Photography</h3>
+                        <p class="text-gray-600">Capturing the most important day of your life with elegance and emotion.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Instagram</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaWeddings</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Event Coverage" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Event Coverage</h3>
+                        <p class="text-gray-600">Professional documentation of corporate events, concerts, and special occasions.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">YouTube</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaEvents</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Commercial Photography" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Commercial Photography</h3>
+                        <p class="text-gray-600">High-quality images for your business, products, and marketing materials.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Facebook</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaCommercial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Portrait Photography" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Portrait Photography</h3>
+                        <p class="text-gray-600">Beautiful portraits that capture personality and emotion.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">Instagram</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaPortraits</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Corporate Video" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Corporate Video</h3>
+                        <p class="text-gray-600">Professional video production for businesses and organizations.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">YouTube</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaCorporate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="gallery-item overflow-hidden rounded-lg shadow-md bg-white">
+                    <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Drone Photography" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Drone Photography</h3>
+                        <p class="text-gray-600">Stunning aerial views for real estate, events, and landscapes.</p>
+                        <div class="mt-4 flex space-x-2">
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">TikTok</span>
+                            <span class="text-xs bg-black text-white px-2 py-1 rounded">#SharyaDrone</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-black text-white font-bold py-3 px-8 rounded-full hover:bg-gray-800 transition duration-300 transform hover:scale-105">
+                    View Full Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Book Your <span class="text-yellow-500">Session</span></h2>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2 bg-gray-50 p-8 rounded-lg shadow-lg booking-card">
+                    <h3 class="text-2xl font-bold mb-6">Available Dates</h3>
+                    
+                    <div class="mb-6 flex justify-between items-center">
+                        <button id="prev-month" class="text-yellow-500 hover:text-yellow-600 text-xl"><i class="fas fa-chevron-left"></i></button>
+                        <h4 id="current-month" class="text-xl font-bold">April 2025</h4>
+                        <button id="next-month" class="text-yellow-500 hover:text-yellow-600 text-xl"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    
+                    <div class="grid grid-cols-7 gap-2 mb-4">
+                        <div class="text-center font-semibold">Sun</div>
+                        <div class="text-center font-semibold">Mon</div>
+                        <div class="text-center font-semibold">Tue</div>
+                        <div class="text-center font-semibold">Wed</div>
+                        <div class="text-center font-semibold">Thu</div>
+                        <div class="text-center font-semibold">Fri</div>
+                        <div class="text-center font-semibold">Sat</div>
+                    </div>
+                    
+                    <div id="calendar-days" class="grid grid-cols-7 gap-2"><div class="text-center text-gray-400 p-2">30</div><div class="text-center text-gray-400 p-2">31</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">1</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">2</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">3</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">4</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">5</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">6</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">7</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">8</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">9</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">10</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">11</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">12</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">13</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">14</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">15</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">16</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">17</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">18</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">19</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">20</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">21</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">22</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">23</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">24</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full bg-yellow-100">25</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">26</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">27</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">28</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">29</div><div class="text-center p-2 calendar-day cursor-pointer rounded-full">30</div><div class="text-center text-gray-400 p-2">1</div><div class="text-center text-gray-400 p-2">2</div><div class="text-center text-gray-400 p-2">3</div></div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold mb-4">Selected Date: <span id="selected-date" class="text-yellow-500">No date selected</span></h4>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 bg-gray-50 p-8 rounded-lg shadow-lg booking-card">
+                    <h3 class="text-2xl font-bold mb-6">Booking Form</h3>
+                    
+                    <form id="booking-form" class="space-y-4">
+                        <div>
+                            <label for="booking-name" class="block text-gray-700 mb-1">Full Name</label>
+                            <input type="text" id="booking-name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required="">
+                        </div>
+                        
+                        <div>
+                            <label for="booking-email" class="block text-gray-700 mb-1">Email</label>
+                            <input type="email" id="booking-email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required="">
+                        </div>
+                        
+                        <div>
+                            <label for="booking-phone" class="block text-gray-700 mb-1">Phone Number</label>
+                            <input type="tel" id="booking-phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required="">
+                        </div>
+                        
+                        <div>
+                            <label for="booking-service" class="block text-gray-700 mb-1">Service</label>
+                            <select id="booking-service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required="">
+                                <option value="">Select a service</option>
+                                <option value="photography">Photography</option>
+                                <option value="videography">Videography</option>
+                                <option value="both">Photography &amp; Videography</option>
+                                <option value="post-production">Post-Production</option>
+                                <option value="drone">Drone Photography</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="booking-time" class="block text-gray-700 mb-1">Preferred Time</label>
+                            <select id="booking-time" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" required="">
+                                <option value="">Select a time</option>
+                                <option value="morning">Morning (9am - 12pm)</option>
+                                <option value="afternoon">Afternoon (1pm - 5pm)</option>
+                                <option value="evening">Evening (6pm - 9pm)</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="booking-message" class="block text-gray-700 mb-1">Special Requests</label>
+                            <textarea id="booking-message" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full btn-yellow font-bold py-3 px-8 rounded-full">
+                            Confirm Booking
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1540&amp;q=80" alt="About Sharya Video Produktion" class="rounded-lg shadow-xl w-full float-animation">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About <span class="text-yellow-500">Sharya Video Produktion</span></h2>
+                    <p class="text-gray-600 mb-4">Founded in 2010, Sharya Video Produktion has been providing exceptional photography and videography services to clients across the region. Our team of passionate professionals is dedicated to capturing your most precious moments with creativity and technical excellence.</p>
+                    <p class="text-gray-600 mb-6">We believe every event, every person, and every product has a unique story to tell. Our mission is to tell these stories through stunning visuals that stand the test of time.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="flex items-center">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-3">
+                                <i class="fas fa-check text-yellow-500"></i>
+                            </div>
+                            <span class="font-medium">10+ Years Experience</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-3">
+                                <i class="fas fa-check text-yellow-500"></i>
+                            </div>
+                            <span class="font-medium">Professional Equipment</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-3">
+                                <i class="fas fa-check text-yellow-500"></i>
+                            </div>
+                            <span class="font-medium">Creative Team</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-3">
+                                <i class="fas fa-check text-yellow-500"></i>
+                            </div>
+                            <span class="font-medium">Satisfied Clients</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="btn-yellow font-bold py-3 px-8 rounded-full">
+                            Get in Touch
+                        </a>
+                        <a href="#" class="bg-black hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">
+                            Our Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client <span class="text-yellow-500">Testimonials</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Sharya Video Produktion captured our wedding day perfectly. The photos and video are absolutely stunning and bring back all the emotions of that special day. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah M." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah M.</h4>
+                            <p class="text-gray-500 text-sm">Wedding Client</p>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" class="text-yellow-500"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"The corporate video they produced for our company exceeded all expectations. Professional, creative, and delivered on time. We'll definitely work with them again."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Michael T.</h4>
+                            <p class="text-gray-500 text-sm">Corporate Client</p>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" class="text-yellow-500"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"I've used Sharya for multiple real estate projects. Their drone photography and virtual tours have helped me sell properties faster and at better prices."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Jennifer K." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Jennifer K.</h4>
+                            <p class="text-gray-500 text-sm">Real Estate Agent</p>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="#" class="text-yellow-500"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Get in <span class="text-yellow-500">Touch</span></h2>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Our Studio</h4>
+                                <p class="text-gray-600">123 Photography Street, Berlin, Germany</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Phone</h4>
+                                <p class="text-gray-600">+49 123 456 7890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Email</h4>
+                                <p class="text-gray-600">info@sharyaproduktion.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-clock text-yellow-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Working Hours</h4>
+                                <p class="text-gray-600">Monday - Friday: 9am - 6pm</p>
+                                <p class="text-gray-600">Saturday: By appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-gray-200 hover:bg-yellow-500 hover:text-white p-3 rounded-full transition duration-300 social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-gray-200 hover:bg-yellow-500 hover:text-white p-3 rounded-full transition duration-300 social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="bg-gray-200 hover:bg-yellow-500 hover:text-white p-3 rounded-full transition duration-300 social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="bg-gray-200 hover:bg-yellow-500 hover:text-white p-3 rounded-full transition duration-300 social-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="#" class="bg-gray-200 hover:bg-yellow-500 hover:text-white p-3 rounded-full transition duration-300 social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-gray-700 mb-1">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 mb-1">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-1">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                        </div>
+                        <button type="submit" class="btn-yellow font-bold py-3 px-8 rounded-full w-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-white">Sharya</span> <span class="text-yellow-500">Video</span>
+                    </h3>
+                    <p class="text-gray-400">Capturing your moments with creativity and technical excellence since 2010.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-yellow-500 transition">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-500 transition">Services</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-yellow-500 transition">Portfolio</a></li>
+                        <li><a href="#booking" class="text-gray-400 hover:text-yellow-500 transition">Booking</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-yellow-500 transition">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-yellow-500 transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-500 transition">Photography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-500 transition">Videography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-500 transition">Post-Production</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-500 transition">Drone Photography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-yellow-500 transition">Virtual Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for updates and special offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg focus:outline-none text-black w-full">
+                        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-r-lg">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Sharya Video Produktion. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-yellow-500 text-black p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-yellow-600">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Booking Success Modal -->
+    <div id="booking-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4 transform transition-all duration-300 scale-95 opacity-0">
+            <div class="text-center">
+                <div class="text-yellow-500 text-5xl mb-4">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-2">Booking Confirmed!</h3>
+                <p class="text-gray-600 mb-6">Thank you for booking with Sharya Video Produktion. We've sent a confirmation to your email.</p>
+                <button id="close-modal" class="btn-yellow font-bold py-2 px-6 rounded-full">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Testimonial Animation on Scroll
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        
+        testimonialCards.forEach(card => {
+            observer.observe(card);
+        });
+        
+        // Form Submission (example)
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+        
+        // Booking Calendar
+        const prevMonthBtn = document.getElementById('prev-month');
+        const nextMonthBtn = document.getElementById('next-month');
+        const currentMonthEl = document.getElementById('current-month');
+        const calendarDaysEl = document.getElementById('calendar-days');
+        const selectedDateEl = document.getElementById('selected-date');
+        
+        let currentDate = new Date();
+        let selectedDate = null;
+        
+        function renderCalendar() {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            
+            currentMonthEl.textContent = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' }).format(currentDate);
+            
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const daysInPrevMonth = new Date(year, month, 0).getDate();
+            
+            calendarDaysEl.innerHTML = '';
+            
+            // Previous month days
+            for (let i = firstDay - 1; i >= 0; i--) {
+                const day = daysInPrevMonth - i;
+                const dayElement = document.createElement('div');
+                dayElement.className = 'text-center text-gray-400 p-2';
+                dayElement.textContent = day;
+                calendarDaysEl.appendChild(dayElement);
+            }
+            
+            // Current month days
+            for (let i = 1; i <= daysInMonth; i++) {
+                const dayElement = document.createElement('div');
+                dayElement.className = 'text-center p-2 calendar-day cursor-pointer rounded-full';
+                dayElement.textContent = i;
+                
+                const date = new Date(year, month, i);
+                const today = new Date();
+                
+                if (date.toDateString() === today.toDateString()) {
+                    dayElement.classList.add('bg-yellow-100');
+                }
+                
+                if (selectedDate && date.toDateString() === selectedDate.toDateString()) {
+                    dayElement.classList.add('selected');
+                }
+                
+                dayElement.addEventListener('click', () => {
+                    selectedDate = date;
+                    selectedDateEl.textContent = date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+                    
+                    // Remove selected class from all days
+                    document.querySelectorAll('.calendar-day').forEach(day => {
+                        day.classList.remove('selected');
+                    });
+                    
+                    // Add selected class to clicked day
+                    dayElement.classList.add('selected');
+                });
+                
+                calendarDaysEl.appendChild(dayElement);
+            }
+            
+            // Next month days
+            const totalDays = firstDay + daysInMonth;
+            const remainingDays = 7 - (totalDays % 7);
+            
+            if (remainingDays < 7) {
+                for (let i = 1; i <= remainingDays; i++) {
+                    const dayElement = document.createElement('div');
+                    dayElement.className = 'text-center text-gray-400 p-2';
+                    dayElement.textContent = i;
+                    calendarDaysEl.appendChild(dayElement);
+                }
+            }
+        }
+        
+        prevMonthBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        });
+        
+        nextMonthBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        });
+        
+        // Initialize calendar
+        renderCalendar();
+        
+        // Booking Form Submission
+        const bookingForm = document.getElementById('booking-form');
+        const bookingModal = document.getElementById('booking-modal');
+        const closeModal = document.getElementById('close-modal');
+        
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            if (!selectedDate) {
+                alert('Please select a date');
+                return;
+            }
+            
+            // Show modal with animation
+            bookingModal.classList.remove('hidden');
+            setTimeout(() => {
+                bookingModal.querySelector('.transform').classList.remove('scale-95', 'opacity-0');
+                bookingModal.querySelector('.transform').classList.add('scale-100', 'opacity-100');
+            }, 10);
+            
+            // Reset form
+            bookingForm.reset();
+            selectedDate = null;
+            selectedDateEl.textContent = 'No date selected';
+            document.querySelectorAll('.calendar-day').forEach(day => {
+                day.classList.remove('selected');
+            });
+        });
+        
+        closeModal.addEventListener('click', () => {
+            bookingModal.querySelector('.transform').classList.remove('scale-100', 'opacity-100');
+            bookingModal.querySelector('.transform').classList.add('scale-95', 'opacity-0');
+            
+            setTimeout(() => {
+                bookingModal.classList.add('hidden');
+            }, 300);
+        });
+        
+        // Click outside modal to close
+        bookingModal.addEventListener('click', (e) => {
+            if (e.target === bookingModal) {
+                bookingModal.querySelector('.transform').classList.remove('scale-100', 'opacity-100');
+                bookingModal.querySelector('.transform').classList.add('scale-95', 'opacity-0');
+                
+                setTimeout(() => {
+                    bookingModal.classList.add('hidden');
+                }, 300);
+            }
+        });
+        
+        // Social media hover effects
+        document.querySelectorAll('.social-icon').forEach(icon => {
+            icon.addEventListener('mouseenter', () => {
+                icon.classList.add('transform', 'scale-110');
+            });
+            
+            icon.addEventListener('mouseleave', () => {
+                icon.classList.remove('transform', 'scale-110');
+            });
+        });
+    </script>
+
+
+
+            <script>// Write JavaScript here</script>
+        
+    
+</body>
